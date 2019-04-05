@@ -1,0 +1,10 @@
+{
+	"MODNAME": "auto",
+	"MODFOLDER": "KerbalKonstructs-WaterLaunchSites",
+	"VERSIONFILE": "auto",
+	"RELEASESDIR": "Releases",
+	"CHANGELOG": "ChangeLog.md",
+	"DRAFT": false,
+	"PRERELEASE": false,
+	"SPACEDOCK_ID": ""
+}

@@ -1,0 +1,6 @@
+[Rr]elease/
+[Rr]eleases/
+
+*.netkan
+/release_token.json
+__pycache__
