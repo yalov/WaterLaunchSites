@@ -2,7 +2,7 @@
 Python3, pip install PyGithub, release_spacedock_utils.py
 
 Public domain license.
-author: flart, version: 8
+author: flart, version: 9
 https://github.com/yalov/SpeedUnitAnnex/blob/master/release.py
 
 Script loads release-arhive to github and spacedock
@@ -57,6 +57,8 @@ def archive_to(file):
 def get_version(version_file, obj="VERSION"):
     """ get version from the version_file """
     data = json.load(open(version_file))
+    if obj not in data:
+        return "NO"
     ver = data[obj]
     version = "{}.{}.{}".format(ver["MAJOR"], ver["MINOR"], ver["PATCH"])
     if "BUILD" in ver and ver["BUILD"] != 0:
