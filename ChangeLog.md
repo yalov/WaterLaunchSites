@@ -1,5 +1,10 @@
 ChangeLog:
 
+## Version 0.9.0
+ * Marinas
+ * changed billboards
+ * move all groups
+
 ## Version 0.8.2
  * second billboard
  * fixes for rescaled 2.5, 3.2 system
