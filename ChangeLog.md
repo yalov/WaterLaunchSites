@@ -1,5 +1,8 @@
 ChangeLog:
 
+## Version 0.9.1
+ * remove "Welcome" Billboards for DLC-less install 
+
 ## Version 0.9.0
  * add 2 anomalies
 
