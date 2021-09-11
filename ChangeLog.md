@@ -1,5 +1,8 @@
 ChangeLog:
 
+## Version 1.0.1
+ * bump version
+
 ## Version 1.0.0
  * update config for KK v1.8.1: Sea-level launchsite is opened by default 
  * images saved as 8-bit png
